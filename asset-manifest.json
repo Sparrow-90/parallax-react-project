@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/parallax-react-project/static/css/main.e9110a66.css",
+    "main.js": "/parallax-react-project/static/js/main.c737e3b4.js",
+    "static/media/nature-1.jpg": "/parallax-react-project/static/media/nature-1.8106954954a3ad231e00.jpg",
+    "static/media/nature-3.jpg": "/parallax-react-project/static/media/nature-3.9f9073a4c24d45831696.jpg",
+    "static/media/nature-2.jpg": "/parallax-react-project/static/media/nature-2.dee5e53bb49b5ed7d39b.jpg",
+    "index.html": "/parallax-react-project/index.html",
+    "main.e9110a66.css.map": "/parallax-react-project/static/css/main.e9110a66.css.map",
+    "main.c737e3b4.js.map": "/parallax-react-project/static/js/main.c737e3b4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e9110a66.css",
+    "static/js/main.c737e3b4.js"
+  ]
+}
