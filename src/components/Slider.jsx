@@ -38,17 +38,17 @@ const goToSlide = (slideIndex)=>{
 
 
   return (
-    <div className='slider-container'>
-        <div style={{backgroundImage: `url(${slides[currentIndex].img})`}} className='image-slider-container'>
+    <div className='max-w-[1400px] h-[780px] w-full m-auto py-16 px-4 relative'>
+        <div  style={{backgroundImage: `url(${slides[currentIndex].img})`}} className='w-full h-full position-relative bg-cover rounded-2xl  bg-center duration-500 shadow-lg shadow-black'>
      {}
-     <div className='leftArrow' onClick={prevSlide}><BsChevronCompactLeft size={50}/></div>
+     <div className='absolute top-[50%] -translate-x-0 -translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer' onClick={prevSlide}><BsChevronCompactLeft size={50}/></div>
      {}   
-     <div className='rightArrow' onClick={nexSlide}><BsChevronCompactRight size={50}/></div>
+     <div className='absolute top-[50%] -translate-x-0 -translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer' onClick={nexSlide}><BsChevronCompactRight size={50}/></div>
         </div>
-     <div className='dots-container'>
+     <div className='flex top-4 justify-center py-2'>
         {
             slides.map((slide, slideIndex) => (
-                <div key={slideIndex} onClick={()=>goToSlide(slideIndex)} className='dots'>
+                <div  key={slideIndex} onClick={()=>goToSlide(slideIndex)} className='text-2xl cursor-pointer text-black/50'>
                     <RxDotFilled/>
                 </div>
             ))
